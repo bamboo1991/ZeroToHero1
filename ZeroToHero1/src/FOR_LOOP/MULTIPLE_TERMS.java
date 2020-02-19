@@ -1,0 +1,21 @@
+package FOR_LOOP;
+
+public class MULTIPLE_TERMS {
+    public static void main(String[] args) {
+
+    int k=5;
+    for (int i=0,p=6; k>1 && i<6; k--,i++){
+
+        System.out.println(p++);
+
+
+    }
+
+
+
+
+
+
+    }
+
+}
