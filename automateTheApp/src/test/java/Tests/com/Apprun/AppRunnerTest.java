@@ -1,15 +1,19 @@
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+package Tests.com.Apprun;
 
+import org.openqa.selenium.support.ui.Select;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
+import pagesObjects.pageClass;
+import utils.ConfiReaderFile;
+import utils.Driver;
+import utils.ScreenshotMethod;
+
+import java.io.IOException;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 
-public class AppRunnerTest extends TestBase{
+public class AppRunnerTest extends TestBase {
     public static String createEmployeeId(String str, int numbers) {
         StringBuilder sb = new StringBuilder();
         Random randomNumbers = new Random();
@@ -30,23 +34,24 @@ public Object[][]getEmpData() {
 Select select;
     @BeforeTest
     public void login(){
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.navigate().to("http://icehrm-open.gamonoid.com/login.php");
-        pageClass page  = new pageClass(driver);
-        page.Login.sendKeys("admin");
-        page.PassLogin.sendKeys("admin");
-        page.loginBtn.click();
+        TestBase.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        TestBase.driver.navigate().to("http://icehrm-open.gamonoid.com/login.php");
+        pageClass page  = new pageClass(Driver.getDriver());
+String userName = ConfiReaderFile.getProperty("userName");
+String password = ConfiReaderFile.getProperty("password");
+page.Login(userName,password);
+
     }
     @Test(dataProvider = "EmployeeData",priority = 1)
 
     public void addingInfo(String  EmpIds, String FirstName, String lastName, String nationality,String DOB, String gender, String marriageStatus, String empStatus, String JobTitle,
                            String country, String JobDate, String department, String IndirectSup ) {
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-        pageClass page = new pageClass(driver);
+        TestBase.driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+        pageClass page = new pageClass(TestBase.driver);
         page.EmployeeBtn.click();
         page.getEmployeeBtn.click();
         page.addEmp.click();
-        driver.navigate().refresh();
+        TestBase.driver.navigate().refresh();
         page.addEmp.click();
         page.EmpNumber.sendKeys(EmpIds);
         page.FirstName.sendKeys(FirstName);
@@ -67,7 +72,7 @@ Select select;
         page.joinedDate.sendKeys(JobDate);
         select = new Select(page.department);
         select.selectByVisibleText(department);
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+        TestBase.driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         select = new Select(page.IndirectSupervisor);
         select.selectByValue("3");
         page.saveButton.click();
@@ -77,13 +82,18 @@ Select select;
     }
     @Test(priority = 2)
             public void validate(){
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-        pageClass page = new pageClass(driver);
+        TestBase.driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        pageClass page = new pageClass(TestBase.driver);
 page.filterBtn.click();
 page.allJobTitles.click();
 page.writeDep.sendKeys("Software Engineer");
 page.clickFilterButton.click();
 
+    }
+    @AfterMethod
+    public static void takeScreenShot(ITestResult result) throws IOException {
+       if (result.getStatus()==ITestResult.FAILURE);
+        ScreenshotMethod.takeScreenShot();
     }
 
 
