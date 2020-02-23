@@ -1,7 +1,8 @@
 <suite name="Open MRS Regression Test">
     <test name="OpenMRS Login Test">
         <classes>
-            <class name="Tests.com.openMrs.loginTests.OpenMRSLoginTest"></class>
+            <class name="Tests.com.openMrs.Register_Tests.PatientRegisterTest"></class>
         </classes>
     </test>
+
 </suite>

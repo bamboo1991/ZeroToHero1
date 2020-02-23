@@ -9,20 +9,20 @@ public class Driver {
     private static WebDriver driver;
     private Driver(){}
     public static WebDriver getDriver(){
-        if (driver==null){
 
-            switch (cofiReader.getProperty("browser")){
+        if(driver==null) {
+            switch (cofiReader.getProperty("browser")) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver();
+                    driver = new ChromeDriver();
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
-                    driver=new FirefoxDriver();
+                    driver = new FirefoxDriver();
                     break;
                 default:
                     WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver();
+                    driver = new ChromeDriver();
                     break;
             }
         }

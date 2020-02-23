@@ -6,25 +6,29 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Driver {
+
     private static WebDriver driver;
     private Driver(){}
-    public static WebDriver getDriver(){
-        if (driver==null){
-            return driver;
+    public static WebDriver getDriver() {
+        if (driver == null) {
+
+
+            switch (ConfiReaderFile.getProperty("browser")) {
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                default:
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+            }
+
+
         }
-        switch (ConfiReaderFile.getProperty("browser")){
-            case "chrome":
-                WebDriverManager.chromedriver().setup();
-                driver=new ChromeDriver();
-                break;
-            case "ff":
-                WebDriverManager.firefoxdriver().setup();
-                driver =new FirefoxDriver();
-                break;
-            default:
-                WebDriverManager.chromedriver().setup();
-                driver =new ChromeDriver();
-                break;
-        }return driver;
-    }
-}
+        return driver;
+    }}

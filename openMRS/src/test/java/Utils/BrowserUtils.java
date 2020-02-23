@@ -1,13 +1,9 @@
 package Utils;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,6 +11,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class BrowserUtils {
     public static void switchWindow(String targetTitle){
@@ -55,19 +52,44 @@ public class BrowserUtils {
         Actions actions=new Actions(Driver.getDriver());
         actions.dragAndDrop(from,to).build().perform();
     }
+    public static WebElement waitForVisibility(WebElement element, int timeUnit){
+        WebDriverWait wait=new WebDriverWait(Driver.getDriver(),timeUnit);
+        return  wait.until(ExpectedConditions.visibilityOf(element));
+
+    }
     // homework create reusable method to wait visibility of element
     // to wait clickable of element
-    public static void waitForVisibility(WebElement element, int timeUnit){
+    public static WebElement waitForClickibility(By element, int timeUnit){
         WebDriverWait wait=new WebDriverWait(Driver.getDriver(),timeUnit);
-        wait.until(ExpectedConditions.visibilityOf(element));
+    return  wait.until(ExpectedConditions.elementToBeClickable(element));
+
     }
-    public void waitForsec(int time){
-        time=time*10;
+    public static WebElement waitForCisibility(By locator, int timeUnit){
+        WebDriverWait wait=new WebDriverWait(Driver.getDriver(),timeUnit);
+        return  wait.until(ExpectedConditions.elementToBeClickable(locator));
+
+    }
+    public static WebElement fluentWait(WebElement element, int TimeUnits, int pollingtime){
+        Wait<WebDriver> wait = new FluentWait(Driver.getDriver()).withTimeout(TimeUnits, TimeUnit.SECONDS).pollingEvery(pollingtime,TimeUnit.SECONDS)
+                .ignoring(NoSuchElementException.class);
+        WebElement element1 =wait.until(driver -> element);
+    return element1;
+    }
+
+
+
+
+    public static void waitForsec(int time){
+        time=time*1000;
         try {
             Thread.sleep(time);
         }catch (InterruptedException ex){
             ex.printStackTrace();
         }
+    }
+    public static void selectByVisible(WebElement element,String text){
+        Select select = new Select(element);
+        select.selectByVisibleText(text);
     }
     public static void takeScreenShot() throws IOException {
         File src=((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.FILE);

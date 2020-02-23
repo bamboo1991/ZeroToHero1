@@ -17,7 +17,7 @@ public class AppRunnerTest extends TestBase {
     public static String createEmployeeId(String str, int numbers) {
         StringBuilder sb = new StringBuilder();
         Random randomNumbers = new Random();
-        for (int i = 0; i < 17; i++) {
+        for (int i = 0; i < 8; i++) {
             sb.append(str.charAt(randomNumbers.nextInt(str.length())));
         }
         return sb.toString();
@@ -36,7 +36,7 @@ Select select;
     public void login(){
         TestBase.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         TestBase.driver.navigate().to("http://icehrm-open.gamonoid.com/login.php");
-        pageClass page  = new pageClass(Driver.getDriver());
+        pageClass page  = new pageClass();
 String userName = ConfiReaderFile.getProperty("userName");
 String password = ConfiReaderFile.getProperty("password");
 page.Login(userName,password);
@@ -47,7 +47,7 @@ page.Login(userName,password);
     public void addingInfo(String  EmpIds, String FirstName, String lastName, String nationality,String DOB, String gender, String marriageStatus, String empStatus, String JobTitle,
                            String country, String JobDate, String department, String IndirectSup ) {
         TestBase.driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-        pageClass page = new pageClass(TestBase.driver);
+        pageClass page = new pageClass();
         page.EmployeeBtn.click();
         page.getEmployeeBtn.click();
         page.addEmp.click();
@@ -82,8 +82,9 @@ page.Login(userName,password);
     }
     @Test(priority = 2)
             public void validate(){
+        pageClass page = new pageClass();
         TestBase.driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-        pageClass page = new pageClass(TestBase.driver);
+
 page.filterBtn.click();
 page.allJobTitles.click();
 page.writeDep.sendKeys("Software Engineer");

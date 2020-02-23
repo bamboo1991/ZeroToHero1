@@ -1,15 +1,13 @@
 package pagesObjects;
 
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.Driver;
 
-import java.util.List;
-
 public class pageClass {
-    public pageClass(WebDriver driver) {
+    public pageClass() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
         @FindBy(id = "username")
@@ -54,9 +52,6 @@ public WebElement department;
     public WebElement saveButton;
 @FindBy(xpath = "//button[@onclick='modJs.closeCreateUser();']")
     public WebElement noButton;
-
-/////////////////////////////////////////////////////////
-
 @FindBy(xpath = "//button[@onclick='modJs.showFilters();return false;']")
     public WebElement filterBtn;
 @FindBy(xpath = "//span[.='All Job Titles']")

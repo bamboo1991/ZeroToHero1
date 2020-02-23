@@ -1,10 +1,8 @@
 package Utils;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
-
-public class cofiReader {
+ public class cofiReader {
     private static Properties configFile;
     static {
         String path="configuration.properties";
@@ -13,8 +11,8 @@ public class cofiReader {
         configFile=new Properties();
         configFile.load(input);
         input.close();
-        } catch (Exception e) {
-            e.printStackTrace();//
+        } catch (Exception e){
+            e.printStackTrace();
         }
     }
     public static String getProperty(String key){
