@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MouseAction]">
+  <test thread-count="5" name="MouseACTION(failed)">
+    <classes>
+      <class name="Tests.com.Apprun.AppRunnerTest">
+        <methods>
+          <include name="filter"/>
+          <include name="setupDriver"/>
+          <include name="verifyEmployees"/>
+          <include name="addingInfo"/>
+          <include name="FilterAssertion"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Tests.com.Apprun.AppRunnerTest -->
+    </classes>
+  </test> <!-- MouseACTION(failed) -->
+</suite> <!-- Failed suite [MouseAction] -->

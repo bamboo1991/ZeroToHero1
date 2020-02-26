@@ -3,6 +3,8 @@ import Mentoring.Array;
 
 import java.util.Arrays;
 public class SortArrayWithOutUsingSortMethod {
+
+
 public void sort(int [] num){
     for (int i=0; i<num.length; i++){
         for (int j =i+1; j<num.length; j++){
