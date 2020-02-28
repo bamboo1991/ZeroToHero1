@@ -1,6 +1,8 @@
 package Tests.com.Apprun;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeTest;
 
 import org.testng.asserts.SoftAssert;
@@ -15,6 +17,6 @@ public class TestBase {
         driver= Driver.getDriver();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+   }
 
-    }
 }

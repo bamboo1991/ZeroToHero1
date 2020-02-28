@@ -2,39 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7446e41d-ba51-42b3-90cc-97784daa5ea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZerotoHero/ZerotoHero.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/automateTheApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/AppRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automatingIce/automatingIce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automatingIce/src/test/java/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classProject/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classProject/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classProject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classProject/classProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled2/untitled2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled3/untitled3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/Ariet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/VIP.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/runners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Utils/Confid_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Utils/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automateTheApp/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/SalaryRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/SalaryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/payRoll_page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/salary_Search_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/Abstraction/OnCampusStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/Abstraction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/Abstraction/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/Abstraction/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/OCA/OCA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/OCA/OCA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraction/OnCampusStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraction/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraction/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraction/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automateTheApp/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/AppRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/AppRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/pageClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/pageClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automateTheApp/test-output/MouseAction/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/test-output/MouseAction/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automateTheApp/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automateTheApp/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openMRS/src/test/java/Pages/Mrs_Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../openMRS/src/test/java/Pages/Mrs_Login_Page.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +62,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1TOBTmPN1eQI2nOUx9lYJrrmnbE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -96,13 +92,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Student">
-    <configuration name="LOCAL_DATE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Date_And_Time_package.LOCAL_DATE" />
+  <component name="RunManager" selected="Application.countryTester">
+    <configuration name="CarStorage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionClasess.CarStorage" />
       <module name="ZeroToHero1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Date_And_Time_package.*" />
+          <option name="PATTERN" value="CollectionClasess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.OCA" />
+    <configuration name="Map_collection_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetCollection.Map_collection_practice" />
       <module name="ZeroToHero1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.*" />
+          <option name="PATTERN" value="SetCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstraction.Student" />
+    <configuration name="SetPractice_for_collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetCollection.SetPractice_for_collection" />
       <module name="ZeroToHero1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Abstraction.*" />
+          <option name="PATTERN" value="SetCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.Test" />
+    <configuration name="SortArrayWithOutUsingSortMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewQuestions_project_day.SortArrayWithOutUsingSortMethod" />
       <module name="ZeroToHero1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.*" />
+          <option name="PATTERN" value="InterviewQuestions_project_day.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,20 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ariet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ariet" />
+    <configuration name="countryTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionClasess.countryTester" />
       <module name="ZeroToHero1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionClasess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.ariet" />
-        <item itemvalue="Application.OCA" />
-        <item itemvalue="Application.LOCAL_DATE" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.countryTester" />
+        <item itemvalue="Application.CarStorage" />
+        <item itemvalue="Application.Map_collection_practice" />
+        <item itemvalue="Application.SetPractice_for_collection" />
+        <item itemvalue="Application.SortArrayWithOutUsingSortMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +179,21 @@
       <option name="presentableId" value="Default" />
       <updated>1573321271758</updated>
     </task>
+    <task id="LOCAL-00001" summary="hash map">
+      <created>1582686214105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582686214106</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hash map">
+      <created>1582686357878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582686357879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +208,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hash map" />
+    <option name="LAST_COMMIT_MESSAGE" value="hash map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

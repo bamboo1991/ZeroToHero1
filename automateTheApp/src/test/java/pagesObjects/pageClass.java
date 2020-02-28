@@ -73,7 +73,9 @@ public class pageClass {
     public List<WebElement> listOfEmployees;
     @FindBy(xpath = "//th[.='First Name']")
     public WebElement FirstNameHeader;
-    public void setJobTilte(WebElement element, String title) {
+
+
+   public void setJobTilte(WebElement element, String title) {
         for (WebElement titles : listOFTitles) {
             if (titles.getText().trim().equals(title)) {
                 titles.click();

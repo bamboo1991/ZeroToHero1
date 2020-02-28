@@ -5,6 +5,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
+import pagesObjects.SalaryPage;
 import pagesObjects.pageClass;
 import utils.ConfiReaderFile;
 import utils.Driver;
@@ -121,7 +122,11 @@ public class AppRunnerTest extends TestBase {
 
     }
 
-//    @Test(dependsOnMethods = "verifyEmployees")
+    }
+
+
+
+    //    @Test(dependsOnMethods = "verifyEmployees")
 
 
 //    @AfterMethod
@@ -133,7 +138,6 @@ public class AppRunnerTest extends TestBase {
 //    }
 
 
-}
 
 
 

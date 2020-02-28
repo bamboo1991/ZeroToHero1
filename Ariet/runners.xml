@@ -1,0 +1,7 @@
+<suite name ="OpenMrs Registration test">
+    <test name="OpenMRS login Test" parallel="test" thread-count="3">
+        <classes>
+            <class name =""
+        </classes>
+    </test>
+</suite>

@@ -3,16 +3,14 @@
 <suite name="Failed suite [MouseAction]">
   <test thread-count="5" name="MouseACTION(failed)">
     <classes>
-      <class name="Tests.com.Apprun.AppRunnerTest">
+      <class name="Tests.com.Apprun.SalaryRunner">
         <methods>
-          <include name="filter"/>
           <include name="setupDriver"/>
-          <include name="verifyEmployees"/>
-          <include name="addingInfo"/>
-          <include name="FilterAssertion"/>
           <include name="login"/>
+          <include name="secondTimeSearch"/>
+          <include name="thirdSearch"/>
         </methods>
-      </class> <!-- Tests.com.Apprun.AppRunnerTest -->
+      </class> <!-- Tests.com.Apprun.SalaryRunner -->
     </classes>
   </test> <!-- MouseACTION(failed) -->
 </suite> <!-- Failed suite [MouseAction] -->
