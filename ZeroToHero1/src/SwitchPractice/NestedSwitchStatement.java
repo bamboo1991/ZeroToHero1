@@ -1,12 +1,18 @@
 package SwitchPractice;
+
+import java.util.Scanner;
+
 public class NestedSwitchStatement {
     public static void main(String[] args) {
-        char ch='b';
+        Scanner input =new Scanner(System.in);
+        System.out.println("Please enter your char \na or \nb");
+
+        String ch = input.next();
         int number =5;
         String animalName="Dog";
         final String animalCat= "cat";
         switch (ch){
-            case 'a':
+            case "a":
                 switch (number){
                     case 5:
                         System.out.println(""+ch+5);
@@ -15,7 +21,7 @@ public class NestedSwitchStatement {
                         System.out.println(""+ch+10);
                         break;
                 }
-            case 'b':
+            case "b":
                 switch (animalName){
                     case "Dog":
                         System.out.println("your animal kind is Dog");

@@ -2,33 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7446e41d-ba51-42b3-90cc-97784daa5ea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/Ariet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/VIP.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/runners.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Utils/Confid_Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ariet/src/test/java/Utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/SalaryRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/SalaryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/payRoll_page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/salary_Search_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/ApiProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ApiIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ariet/.idea/Ariet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeleteAfterYouDone/DeleteAfterYouDone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automatingIce/classProject/classProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/ebdSprint1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Pages/AddEmployeeWithDisc/AddEmployeePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Pages/AddEmployeeWithDisc/homePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Runner/cukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/StepDefinitions/AddEmployeeStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/StepDefinitions/HomePageStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Utils/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/resources/com.EBP.features.Paylocity/HeaderValidation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/resources/com.EBP.features.Paylocity/addEmployee.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/resources/com.EBP.features.Paylocity/discount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/resources/com.EBP.features.Paylocity/editEmployee.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automateTheApp/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/AppRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/AppRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/Tests/com/Apprun/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/pageClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/src/test/java/pagesObjects/pageClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automateTheApp/test-output/MouseAction/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/test-output/MouseAction/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automateTheApp/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automateTheApp/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automateTheApp/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openMRS/src/test/java/Pages/Mrs_Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../openMRS/src/test/java/Pages/Mrs_Login_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/SwitchPractice/NestedSwitchStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/SwitchPractice/NestedSwitchStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionClasess/hashset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwitchPractice/NestedSwitchStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwitchPractice/NestedSwitchStatement.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,9 +101,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.countryTester">
-    <configuration name="CarStorage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionClasess.CarStorage" />
+  <component name="RunManager" selected="Application.Bigramm_Interview_Question">
+    <configuration name="Batch4preIncrementTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwitchPractice.Batch4preIncrementTask" />
+      <module name="ZeroToHero1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwitchPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bigramm_Interview_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionClasess.Bigramm_Interview_Question" />
       <module name="ZeroToHero1" />
       <extension name="coverage">
         <pattern>
@@ -106,51 +128,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map_collection_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetCollection.Map_collection_practice" />
-      <module name="ZeroToHero1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SetCollection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetPractice_for_collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetCollection.SetPractice_for_collection" />
-      <module name="ZeroToHero1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SetCollection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortArrayWithOutUsingSortMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewQuestions_project_day.SortArrayWithOutUsingSortMethod" />
-      <module name="ZeroToHero1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewQuestions_project_day.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="countryTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionClasess.countryTester" />
+    <configuration name="CountOfLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionClasess.CountOfLetters" />
       <module name="ZeroToHero1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CollectionClasess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="batch4AnimalPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwitchPractice.batch4AnimalPractice" />
+      <module name="ZeroToHero1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwitchPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testForBacth4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwitchPractice.testForBacth4" />
+      <module name="ZeroToHero1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwitchPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.countryTester" />
-        <item itemvalue="Application.CarStorage" />
-        <item itemvalue="Application.Map_collection_practice" />
-        <item itemvalue="Application.SetPractice_for_collection" />
-        <item itemvalue="Application.SortArrayWithOutUsingSortMethod" />
+        <item itemvalue="Application.Bigramm_Interview_Question" />
+        <item itemvalue="Application.CountOfLetters" />
+        <item itemvalue="Application.Batch4preIncrementTask" />
+        <item itemvalue="Application.batch4AnimalPractice" />
+        <item itemvalue="Application.testForBacth4" />
       </list>
     </recent_temporary>
   </component>
