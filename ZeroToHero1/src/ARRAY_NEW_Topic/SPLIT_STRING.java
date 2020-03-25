@@ -7,7 +7,9 @@ public class SPLIT_STRING {
         String date = "12-07-2019-12.45";
         String[] values = date.split("-");
         System.out.println(Arrays.toString(values));
-        if (values[2].equalsIgnoreCase("2017")){
+        if (values[2].equalsIgnoreCase("2019")){
+            values[2].replace("2019","2017");
+            System.out.println(Arrays.toString(values));
             System.out.println("year is 2019");
         }else{
             System.out.println("year is not 2019");

@@ -1,0 +1,14 @@
+{
+  "id" : 1,
+  "category" : {
+    "id" : 111,
+    "name" : "jackson"
+  },
+  "name" : "Vivek",
+  "photoUrls" : [ "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg" ],
+  "tags" : [ {
+    "id" : 1000,
+    "name" : "Tags"
+  } ],
+  "status" : "sold"
+}

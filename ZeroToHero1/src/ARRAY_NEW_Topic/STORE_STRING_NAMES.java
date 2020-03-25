@@ -9,9 +9,8 @@ public class STORE_STRING_NAMES {
         System.out.println("Please enter 6 names");
        String names = input.nextLine();
        String[] list = new String[6];
-
        for (int i =0; i<names.length(); i++){
-
+list[i]=input.nextLine();
        }
         System.out.println(Arrays.toString(list));
 

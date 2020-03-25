@@ -1,0 +1,15 @@
+{
+  "id" : 1312,
+  "name" : "Hatiko",
+  "lists" : [ {
+    "types" : "Buldog",
+    "size" : 12,
+    "origin" : "Siberia"
+  } ],
+  "status" : "available",
+  "tags" : "HomeStyle",
+  "photoUrls" : "www.google.com",
+  "message" : null,
+  "type" : null,
+  "code" : null
+}

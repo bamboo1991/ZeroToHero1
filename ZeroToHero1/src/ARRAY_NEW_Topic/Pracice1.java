@@ -16,7 +16,6 @@ public class Pracice1 {
         numbers [7]=10;
         numbers [8]=13;
 
-
         numbers[4]= 5;
 
         System.out.println(Arrays.toString(numbers));

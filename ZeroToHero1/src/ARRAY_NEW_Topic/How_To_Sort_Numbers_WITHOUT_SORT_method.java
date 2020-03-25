@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class How_To_Sort_Numbers_WITHOUT_SORT_method {
     public static void main(String[] args) {
-        //How to sort numbers without sorting?
-        int [] numbers = {1,3,5,2,7,4,8,9,0};
+        int [] numbers = {1,3,5,2,7,4,8,9,0,78787};
         for (int i=0; i<numbers.length; i++){
             int temp=numbers[i];
                 for (int k=i+1; k<numbers.length; k++){

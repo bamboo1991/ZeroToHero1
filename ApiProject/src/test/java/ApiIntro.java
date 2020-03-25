@@ -1,5 +1,3 @@
-
-
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
@@ -11,87 +9,88 @@ import org.codehaus.jackson.type.TypeReference;
 import org.junit.Assert;
 import org.junit.Test;
 
-import javax.management.ObjectName;
 import java.io.IOException;
 import java.net.URISyntaxException;
-
-import java.util.List;
 import java.util.Map;
 
 public class ApiIntro {
     @Test
-    public void fiRSTGetCall() throws URISyntaxException, IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        //Creating client like postman
+    public void firstApiCall() throws URISyntaxException, IOException {
         HttpClient httpClient = HttpClientBuilder.create().build();
-        //Cobstructing an URL
-        URIBuilder uriBuilder = new URIBuilder();
-        uriBuilder.setScheme("https").setHost("petstore.swagger.io").setPath("v2/pet/112233");
-        //Defining API call
-        HttpGet httpGet = new HttpGet(uriBuilder.build());
-        httpGet.addHeader("Accept","Application");
-        //Executing the api call
-        HttpResponse response = httpClient.execute(httpGet);
-       Map<String, Object> deserialization = objectMapper.readValue(response.getEntity().getContent(),new TypeReference<Map<String,Object>>(){});
-        System.out.println(deserialization.get("id"));
-        System.out.println(deserialization.get("status"));
-        Map<String, Object> categoryMap1 = (Map<String, Object>) deserialization.get("category");
-        String value = (String)categoryMap1.get("name");
-        Integer idNum = (Integer)categoryMap1.get("id");
-        System.out.println(value);
-        System.out.println(idNum);
-        Assert.assertEquals(HttpStatus.SC_NOT_FOUND,response.getStatusLine().getStatusCode());
+        URIBuilder uri = new URIBuilder(); // endpoint
+        uri.setScheme("https");
+        uri.setHost("petstore.swagger.io");
+        uri.setPath("v2/pet/112233");
+        HttpGet httpGet = new HttpGet(uri.build());
+        httpGet.addHeader("Accept","application/json");
 
-
-
+       HttpResponse response=  httpClient.execute(httpGet);
+       System.out.println("Status code of my first api call is: "+response.getStatusLine().getStatusCode());
+        Assert.assertEquals(HttpStatus.SC_OK,response.getStatusLine().getStatusCode());
+        Assert.assertEquals("Invlaid content type ", "application/json",response.getEntity().getContentType().getValue());
 
     }
-//    @Test
-//    public void gettallUsersName() throws IOException, URISyntaxException {
-//        HttpClient httpClient = HttpClientBuilder.create().build();
-//        //Constructing URL
-//        URIBuilder uriBuilder = new URIBuilder();
-//        uriBuilder.setScheme("https").setHost("petstore.swagger.io").setPath("v2/pet/112233");
-//        //defining the api call
-//        HttpGet httpGet = new HttpGet(uriBuilder.build());
-//        httpGet.addHeader("Accept", "application/json");
-//        //executing the api call
-//        HttpResponse response = httpClient.execute(httpGet);
-//        ObjectMapper objectMapper = new ObjectMapper();
-//        //deserialization
-//        Map<String,Object> allUsers = objectMapper.readValue(response.getEntity().getContent(), new TypeReference <Map<String,Object>>(){});
-//        List<Map<String,Object>> useraDataList = (List<Map<String,Object>>)allUsers.get("data");
-//        System.out.println(useraDataList);
-//        for (int i =0; i<useraDataList.size(); i++){
-//            String firstName= (String) useraDataList.get(i).get("first_name");
-//            System.out.println(firstName);
-//        }
-//    }
-//    @Test
-//    public void printByCategoryData() throws URISyntaxException, IOException {
-//        HttpClient httpClient = HttpClientBuilder.create().build();
-//        //Constructing URL
-//        URIBuilder uriBuilder = new URIBuilder();
-//        uriBuilder.setScheme("https").setHost("petstore.swagger.io").setPath("v2/pet/112233");
-//        //defining the api call
-//        HttpGet httpGet = new HttpGet(uriBuilder.build());
-//        httpGet.addHeader("Accept", "application/json");
-//        //executing the api call
-//        HttpResponse response = httpClient.execute(httpGet);
-//        ObjectMapper objectMapper = new ObjectMapper();
-//
-//        Map<String ,Object> map= objectMapper.readValue(response.getEntity().getContent(),new TypeReference<Map<String,Object>>(){
-//        });
-//        Map<String ,Object>category= (Map<String, Object>)map.get("category");
-//        String categoryName = (String) category.get("Name");
-//        System.out.println("Category name: "+categoryName);
-//
-//        String name = (String) map.get("name");
-//        System.out.println("regular name: "+name);
-//        Map<String,Object> tagsData =(Map<String, Object>)map.get("tags");
-//        String tagName = (String) tagsData.get("name");
-//        System.out.println("tag name: "+tagName);
-//
-//
-//    }
+    @Test
+    public void getUsers() throws URISyntaxException, IOException {
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        URIBuilder uri = new URIBuilder(); // endpoint
+        uri.setScheme("https");
+        uri.setHost("reqres.in");
+        uri.setPath("api/users");
+        uri.setCustomQuery("page=2");
+        HttpGet httpGet = new HttpGet(uri.build());
+        httpGet.addHeader("Accept","application/json");
+        //httpGet.addHeader("Content-Type","application/json");
+        HttpResponse response=httpClient.execute(httpGet);
+        System.out.println("Status code of my first api call is: "+response.getStatusLine().getStatusCode());
+        int indexOFSpace = response.getEntity().getContentType().getValue().indexOf(" ");
+        System.out.println(response.getEntity().getContentType().getValue().substring(indexOFSpace+1));
+        Assert.assertTrue(response.getEntity().getContentType().getValue().contains("charset=utf-8"));
+        //Assert.assertEquals(HttpStatus.SC_OK,response.getStatusLine().getStatusCode());
+    }
+    @Test
+    public void getSigleUser() throws URISyntaxException, IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        URIBuilder uriBuilder = new URIBuilder();
+        uriBuilder.setScheme("https");
+        uriBuilder.setHost("reqres.in");
+        uriBuilder.setPath("api/users/2");
+        HttpGet httpGet = new HttpGet(uriBuilder.build());
+        httpGet.addHeader("Accept","application/json");
+        HttpResponse response = httpClient.execute(httpGet);
+        System.out.println("The status code is: "+response.getStatusLine().getStatusCode());
+        System.out.println(response.getEntity().getContentType().getValue());
+        Map<String, String > deserialization = objectMapper.readValue(response.getEntity().getContent(), new TypeReference<Map<String,String>>(){}
+        );
+        System.out.println(deserialization.get("id"));
+    }
+    @Test
+    public void userNotFound() throws URISyntaxException, IOException {
+
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        URIBuilder uri = new URIBuilder();
+        uri.setScheme("https");
+        uri.setHost("reqres.in");
+        uri.setPath("api/users/2");
+        HttpGet httpGet = new HttpGet(uri.build());
+        httpGet.addHeader("Accept","application/xml");
+        HttpResponse response = httpClient. execute(httpGet);
+        System.out.println(HttpStatus.SC_OK);
+        System.out.println(response.getEntity().getContentType().getValue());
+    }
+    @Test
+    public void listOfEmp() throws URISyntaxException, IOException {
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        URIBuilder uri = new URIBuilder();
+        uri.setScheme("https");
+        uri.setHost("reqres.in");
+        uri.setPath("api/unknown");
+        HttpGet httpGet = new HttpGet(uri.build());
+        httpGet.addHeader("Accept", "application/json");
+        HttpResponse response = httpClient.execute(httpGet);
+        System.out.println("the status code is: "+response.getStatusLine().getStatusCode());
+
+        System.out.println(response.getEntity().getContentType().getValue());
+    }
 }
