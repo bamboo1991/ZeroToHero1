@@ -1,0 +1,14 @@
+{
+  "data" : {
+    "id" : 2,
+    "email" : "ariet.com",
+    "first_name" : "Pojo",
+    "last_name" : "Mojo",
+    "avatar" : "www.google.com"
+  },
+  "ad" : {
+    "company" : "Techtoril Academy",
+    "url" : "www.techtorialacademy.com",
+    "text" : "Text1"
+  }
+}

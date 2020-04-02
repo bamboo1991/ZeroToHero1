@@ -2,124 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7446e41d-ba51-42b3-90cc-97784daa5ea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/Ariet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/ArietTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/family.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/BreakingPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/PetTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/PrintAllPetData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/ariet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ReqresUser/AvatarS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ReqresUser/ReqresUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ReqresUser/allUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/PetCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/newPet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/petCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/petCreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/CreateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/CreatedUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/UserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/new.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/ClassList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/SchoolLocations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/ariet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/studentPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/deleted.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/Pages/TestCase1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/Pages/TestCase2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/StepDefs/AccountCreatingSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/StepDefs/AddressFunctionalitySteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/StepDefs/LoginWithValidCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/StepDefs/NegativeTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/Utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/Utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/java/runner/RunnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/resources/Authentication/Authentication.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/resources/Authentication/LoginWithValidCredentials.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/resources/Authentication/NegativeTesting.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deleted/src/test/resources/Authentication/ValidatingAddressFunctionality.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/deletedVersion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/src/test/resources/Authentication.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/src/test/resources/LoginWithValidCredentials.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/src/test/resources/NegativeTesting.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deletedVersion/src/test/resources/ValidatingAddressFunctionality.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ApiIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/ApiIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetStorePOJO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/Tags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PracticePOJO/DeserializationPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PracticePOJO/DeserializationPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PracticePOJO/FactPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/PracticePOJO/FactPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/serialize/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/serialize/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/serialize/serializeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/serialize/serializeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/POJO/ad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetPojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetPojo/Id_Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetPojo/Tags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetPojo/insideTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetPojo/pet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetPojo/testPet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/serialize/SerializationInInto/IntoByTima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/serialize/SerializationInInto/rates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/RESTASSSURED/RestAssuredIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/Api/PostAndVerifyThePet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/Api/PostAndVerifyThePet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/Api/PostLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/Api/PostLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ApiIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ApiIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/Ariet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ArietProject/Ariet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/ArietTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ArietProject/ArietTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/family.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ArietProject/family.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ArietProject/info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ArietProject/info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/BreakingPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/BreakingPad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CatFacts/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CatFacts/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CatFacts/catFactsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CatFacts/catFactsPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CatFacts/getCatFact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CatFacts/getCatFact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CukesRunner/runnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CukesRunner/runnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CurrencyAppPractice/AkchaBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CurrencyAppPractice/AkchaBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CurrencyAppPractice/AkchaBarPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CurrencyAppPractice/AkchaBarPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CurrencyAppPractice/Rates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CurrencyAppPractice/Rates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/CurrencyAppPractice/deserializationPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/CurrencyAppPractice/deserializationPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/DeleteIntro/DeleteSomething.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/DeleteIntro/DeleteSomething.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/DeleteIntro/PetStoreDeletePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/DeleteIntro/PetStoreDeletePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PACKAGE_NAME/ffwqefw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PACKAGE_NAME/ffwqefw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/POJO/Ad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/POJO/Ad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/POJO/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/POJO/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/POJO/DeserializationWithPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/POJO/DeserializationWithPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/POJO/UserPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/POJO/UserPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetStore/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetStore/PetPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetStore/PetSerializeClass/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/PetTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetStore/PetSerializeClass/PetTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/PrintAllPetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetStore/PetSerializeClass/PrintAllPetData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/PetSerializeClass/ariet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetStore/PetSerializeClass/ariet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PetStore/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PetStore/Tags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PostIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PostIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PracticePOJO/DeserializationPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PracticePOJO/DeserializationPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PracticePOJO/FactPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PracticePOJO/FactPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/PrintArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/PrintArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/RepeatPetAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ReqresUser/AvatarS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ReqresUser/AvatarS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ReqresUser/ReqresUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ReqresUser/ReqresUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/ReqresUser/allUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/ReqresUser/allUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/herokuAppPractice/All.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/herokuAppPractice/All.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/herokuAppPractice/AllPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/herokuAppPractice/AllPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/herokuAppPractice/DeserializationPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/herokuAppPractice/DeserializationPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/herokuAppPractice/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/herokuAppPractice/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/herokuAppPractice/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/herokuAppPractice/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/herokuAppPractice/insideOfAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/herokuAppPractice/insideOfAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/PetCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/petCreate1/PetCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/newPet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/petCreate1/newPet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/petCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/petCreate1/petCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/petCreate1/petCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/petCreate1/petCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/reqresProject/CreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/CreatedUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/reqresProject/CreatedUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/UserPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/reqresProject/UserPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/reqresProject/new.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/reqresProject/new.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/serialize/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/serialize/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/serialize/newFile.jason" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/serialize/newFile.jason" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/serialize/serializeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/serialize/serializeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/ClassList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/studentProject/ClassList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/SchoolLocations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/studentProject/SchoolLocations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/studentProject/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/ariet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/studentProject/ariet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiProject/src/test/java/studentProject/studentPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiProject/src/test/java/APACHE_HTTP_CLIENT/studentProject/studentPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/ARRAY_ASSIGMENT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/ARRAY_ASSIGMENT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/FIND_VALUE_OF_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/FIND_VALUE_OF_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/How_To_Sort_Numbers_WITHOUT_SORT_method.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/How_To_Sort_Numbers_WITHOUT_SORT_method.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/Pracice1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/Pracice1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/SPLIT_STRING.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/SPLIT_STRING.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/STORE_NUMBERS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/STORE_NUMBERS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/STORE_STRING_NAMES.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/STORE_STRING_NAMES.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/StoreNumber_and_find_mising_number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/ARRAY_NEW_Topic/StoreNumber_and_find_mising_number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZeroToHero1/InterviewQuestions_project_day/ProductNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZeroToHero1/InterviewQuestions_project_day/ProductNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/ARRAY_ASSIGMENT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/ARRAY_ASSIGMENT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/FIND_VALUE_OF_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/FIND_VALUE_OF_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/How_To_Sort_Numbers_WITHOUT_SORT_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/How_To_Sort_Numbers_WITHOUT_SORT_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/Pracice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/Pracice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/SPLIT_STRING.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/SPLIT_STRING.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/STORE_NUMBERS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/STORE_NUMBERS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/STORE_STRING_NAMES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/STORE_STRING_NAMES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/StoreNumber_and_find_mising_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAY_NEW_Topic/StoreNumber_and_find_mising_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewQuestions_project_day/ProductNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewQuestions_project_day/ProductNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repeating_topics/PalindromNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repeating_topics/PalindromNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ebdSprint1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebdSprint1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Pages/AddEmployeeWithDisc/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebdSprint1/src/test/java/Pages/AddEmployeeWithDisc/AddEmployeePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storeProject/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/Automation-Practice" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/configuration.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/pages/OrderHistoryPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/pages/PriceCalculationPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/runner/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/stepDefinitions/OrderHistoryStepDefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/stepDefinitions/PriceCalculationStepDefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/utils/BrowserUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/utils/ConfigReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/java/utils/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/resources/priceCalculation/OrderHistory.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/src/test/resources/priceCalculation/priceCalculation.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/Pages/TestCase1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/Pages/TestCase2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/StepDefs/AccountCreatingSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/StepDefs/AddressFunctionalitySteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/StepDefs/LoginWithValidCredentials.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/StepDefs/NegativeTestSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/Utils/BrowseUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/Utils/ConfigReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/Utils/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/java/runner/RunnerClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/resources/Authentication/Authentication.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/resources/Authentication/LoginWithValidCredentials.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/resources/Authentication/NegativeTesting.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storeProject/src/test/resources/Authentication/ValidatingAddressFunctionality.feature" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +115,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/apiWeek2FootballProject" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -183,39 +136,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumOf9">
+  <component name="RunManager" selected="Application.add3toAnArray">
+    <configuration name="FIBONACII_number_interview_question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FOR_LOOP.FIBONACII_number_interview_question" />
+      <module name="ZeroToHero1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FOR_LOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Repeating_topics.PalindromNumber" />
       <module name="ZeroToHero1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Repeating_topics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewQuestions_project_day.ProductNumber" />
-      <module name="ZeroToHero1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewQuestions_project_day.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductNumeber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ARRAY_NEW_Topic.Mentoring.ProductNumeber" />
-      <module name="ZeroToHero1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ARRAY_NEW_Topic.Mentoring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,13 +189,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="add3toAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ARRAY_NEW_Topic.Mentoring.add3toAnArray" />
+      <module name="ZeroToHero1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ARRAY_NEW_Topic.Mentoring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.add3toAnArray" />
+        <item itemvalue="Application.FIBONACII_number_interview_question" />
         <item itemvalue="Application.SumOf9" />
         <item itemvalue="Application.SortWithOutSorting" />
         <item itemvalue="Application.PalindromNumber" />
-        <item itemvalue="Application.ProductNumber" />
-        <item itemvalue="Application.ProductNumeber" />
       </list>
     </recent_temporary>
   </component>
@@ -311,11 +264,6 @@
           <url>file://$PROJECT_DIR$/src/Inheritance2/Vehicle.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ARRAY_NEW_Topic/Mentoring/SumOf9.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/OCA/FileA.java</url>

@@ -1,5 +1,7 @@
 package Utils;
 
+import io.restassured.RestAssured;
+
 public class PayloadUtils {
     public static String getPetPayLoad(int id){
         return "{\n" +
@@ -36,6 +38,46 @@ public class PayloadUtils {
         return  "{\n" +
                 "    \"email\": \"eve.holt@reqres.in\",\n" +
                 "    \"password\": \"cityslicka\"\n" +
+                "}";
+    }
+    public static String getJiraStoryBody(String type,String assignee, String summary, String description, String priority){
+        return "{\n" +
+                "    \"fields\": {\n" +
+                "        \"project\": {\n" +
+                "            \"key\": \"JC\"\n" +
+                "        },\n" +
+                "        \"assignee\": {\n" +
+                "            \"name\": \"" + assignee + "\"\n" +
+                "        },\n" +
+                "        \"summary\": \"" + summary + "\",\n" +
+                "        \"description\": \"" + description + "\",\n" +
+                "        \"issuetype\": {\n" +
+                "            \"name\": \""+type+"\"\n" +
+                "        },\n" +
+                "        \"priority\": {\n" +
+                "            \"name\": \"" + priority + "\"\n" +
+                "        }\n" +
+                "    }\n" +
+                "}";
+    }
+    public static String getSprintBody(String SprintName,String Goal){
+        return "{\n" +
+                "  \"name\": \""+SprintName+"\",\n" +
+                "  \"startDate\": \"2020-04-11T15:22:00.000+10:00\",\n" +
+                "  \"endDate\": \"2020-04-25T15:22:00.000+10:00\",\n" +
+                "  \"originBoardId\": 1,\n" +
+                "  \"goal\": \""+Goal+"\"\n" +
+                "}";
+    }
+    public static String logInBody(String jiraUserName, String jiraPassword){
+        return "{\n" +
+                "    \"username\": \""+ConfigReader.getProperty("jiraUserName")+"\",\n" +
+                "    \"password\": \""+ConfigReader.getProperty("jiraPassword")+"\"\n" +
+                "}";
+    }
+    public static String getComment(String comment){
+        return "{\n" +
+                "\"body\": \""+comment+"\"\n" +
                 "}";
     }
 }

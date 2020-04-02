@@ -1,0 +1,18 @@
+{
+  "id": 203,
+  "category": {
+    "id": 7,
+    "name": "bulldog"
+  },
+  "name": "Harlamov",
+  "photoUrls": [
+    "www.pictures.com"
+  ],
+  "tags": [
+    {
+      "id": 17777,
+      "name": "tag name"
+    }
+  ],
+  "status": "best friend"
+}

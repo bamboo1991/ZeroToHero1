@@ -1,0 +1,114 @@
+package APACHE_HTTP_CLIENT.PracticePOJO;
+
+
+public class FactPojo {
+    private Boolean used;
+    private String source;
+    private String type;
+    private Boolean deleted;
+
+    public String get_id() {
+        return _id;
+    }
+
+    public void set_id(String _id) {
+        this._id = _id;
+    }
+
+    private String _id;
+    private String user;
+    private String text;
+    private int __v;
+    private String updatedAt;
+    private String createdAt;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    private String status;
+
+    public Boolean getUsed() {
+        return used;
+    }
+
+    public void setUsed(Boolean used) {
+        this.used = used;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Boolean getDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(Boolean deleted) {
+        this.deleted = deleted;
+    }
+
+    public String getId() {
+        return _id;
+    }
+
+    public void setId(String _id) {
+        this._id = _id;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public int get__v() {
+        return __v;
+    }
+
+    public void set__v(int __v) {
+        this.__v = __v;
+    }
+
+    public String getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(String updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
+    }
+}
